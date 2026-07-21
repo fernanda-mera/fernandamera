@@ -136,10 +136,16 @@ a {
 .primary-button {
     background: #1f1f1f;
     color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease;
 }
 
 .primary-button:hover {
-    background: #3a3a3a;
+    background: #333333;
+    transform: translateY(-2px);
 }
 
 .secondary-button {
@@ -349,4 +355,8 @@ a {
     .contact-links {
         flex-wrap: wrap;
     }
+}
+
+.publication-buttons {
+    margin-top: 24px;
 }
