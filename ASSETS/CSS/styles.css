@@ -149,6 +149,7 @@ a {
 }
 
 .secondary-button {
+    border-radius: 8px;
     border: 1px solid #bcbcb7;
     color: #333333;
 }
