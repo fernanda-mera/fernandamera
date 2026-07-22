@@ -48,11 +48,17 @@ a {
 }
 
 .logo {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.35rem;
-    font-weight: 600;
+     font-family: 'Allura', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #1f1f1f;
+    text-decoration: none;
+    line-height: 1;
 }
-
+.logo:hover {
+    opacity: 0.85;
+    transition: 0.25s ease;
+}
 .nav-links {
     display: flex;
     gap: 28px;
